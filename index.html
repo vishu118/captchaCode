@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <title>Registration form</title>
+</head>
+<body>
+   <div class="main">
+    <div id="container">
+        <div class="form-area">
+            <h1>Sign up</h1>
+            <p>It's free and only takes a minute.</p>
+            <form id="form-submit">
+                <div class="form-content">
+                    <label for="username">Username</label>
+                    <input type="text" name="firstname" id="first-name">
+                </div>
+            
+                <div class="form-content">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form-content">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password">
+                </div>
+               
+               
+                     <div class="captcha-area">
+                        <div class="captcha-img">
+                          <img src="captcha-bg.png" alt="Captch Background">
+                          <span class="captcha"></span>
+                        </div>
+                        <button class="reload-btn"><i class="fas fa-redo-alt"></i></button>
+                      </div>
+                      <form action="#" class="input-area">
+                        <input type="text" placeholder="Enter captcha" maxlength="6" spellcheck="false" required  class="captchainput">
+    
+                      </form>
+                      <div class="status-text"></div> 
+               
+                      <button type="submit" id="submit">Sign Up </button>
+
+                <div id="error"></div>
+              
+            </form>
+            </div>
+
+        <button class="darkbtn">DarkMode </button>
+            </div>
+   </div>
+        
+    
+    <script src="app.js"></script>
+</body>
+</html>
