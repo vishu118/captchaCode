@@ -120,7 +120,7 @@ captchainput.value = ""
 // for Dark mode ==============================
 
     dark.addEventListener("click",()=>{
-       document.body.classList.toggle('DarkTheme')
+       document.body.classList.toggle('DarkTheme');
     })
 
 
